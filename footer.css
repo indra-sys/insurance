@@ -1,0 +1,25 @@
+/* Custom CSS */
+.footer {
+    background-color: #508cc9;
+    color: #ffffff;
+  }
+  
+  .footer h5 {
+    color: #141414;
+    font-weight: bold;
+  }
+  
+  .footer ul.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .footer ul.list-unstyled li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer ul.list-unstyled li a:hover {
+    color: #0c0c0c;
+  }
+  

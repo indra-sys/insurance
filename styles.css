@@ -1,0 +1,35 @@
+/* Custom CSS */
+
+/* Hero Section */
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 150px 0;
+  }
+  
+  /* Button Styles */
+  .btn-primary {
+    background-color: #ff6f00;
+    border-color: #ff6f00;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff9500;
+    border-color: #ff9500;
+  }
+  
+  /* Contact Form Styles */
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    border-radius: 5px;
+  }
+  
+  /* Override Bootstrap's default padding for cards */
+  .card-body {
+    padding: 20px;
+  }
+  

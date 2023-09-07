@@ -1,0 +1,73 @@
+/* Custom CSS */
+.navbar-custom {
+    background-color: #0084ffd3;
+    padding: 15px 0;
+  }
+  
+  .navbar-custom .navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .navbar-custom .navbar-nav .nav-link {
+    color: #ffffff;
+    margin-right: 20px;
+    transition: color 0.3s;
+  }
+  
+  .navbar-custom .navbar-nav .nav-link:hover {
+    color: #ff6f00;
+  }
+  
+  .navbar-custom .dropdown-menu {
+    background-color: #0dc46e;
+    border: none;
+  }
+  
+  .navbar-custom .dropdown-item {
+    color: #ffffff;
+    transition: color 0.3s;
+  }
+  
+  .navbar-custom .dropdown-item:hover {
+    color: #ff6f00;
+  }
+  
+  .navbar-custom .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .navbar-custom .search-form {
+    position: relative;
+  }
+  
+  .navbar-custom .search-input {
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    background-color: #ffffff;
+    color: #fff;
+    width: 150px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar-custom .search-input:focus {
+    background-color: #555;
+    color: #fff;
+    outline: none;
+  }
+  
+  .navbar-custom .search-btn {
+    background-color: #ff6f00;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    color: #fff;
+    transition: background-color 0.3s;
+    cursor: pointer;
+  }
+  
+  .navbar-custom .search-btn:hover {
+    background-color: #ff9500;
+  }
+  
